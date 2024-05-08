@@ -32,4 +32,4 @@ Example usage:
 - python predict.py ./test_images/wild_pansy.jpg my_model.h5 --category_names label_map.json --top_k 3
 
 ## Licensing, Authors, Acknowledgements
-I would like to thank M. E. Nilsback and A. Zisserman for making the Oxford 102 flowers dataset a publicly available resource. I would also like to thank
+I would like to thank M. E. Nilsback and A. Zisserman for making the Oxford 102 flowers dataset a publicly available resource. 
