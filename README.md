@@ -25,14 +25,6 @@ This repository contains a notebook and python script.
 - The command line app that takes in an image and the trained model, then makes a prediction of the flower type.
 
 Options: 
---category_names - when this option is set, reads in a json file mapping labels to flower names
---top_k - when this option is set, prints out the requested number of classes. Default is 5
+- --category_names - when this option is set, reads in a json file mapping labels to flower names.
+- --top_k - when this option is set, prints out the requested number of classes. Default is 5
 - Example usage: python predict.py ./test_images/wild_pansy.jpg my_model.h5 --category_names label_map.json --top_k 3
-
-
-
-## Findings
-The findings of this investigation are summarized in this [blog post](https://medium.com/@thefunnyonion/exploring-the-influencers-of-airbnb-review-ratings-unveiling-bostons-secrets-66f60181757a)
-
-## Licensing, Authors, Acknowledgements
-I would like to thank Airbnb for making this dataset public available. I would also like to acknowledge Charles Rajendran, whose [code](https://medium.com/swlh/text-classification-using-the-bag-of-words-approach-with-nltk-and-scikit-learn-9a731e5c4e2f) I referenced to tokenize the review comments. 
