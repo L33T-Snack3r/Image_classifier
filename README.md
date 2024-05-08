@@ -27,4 +27,5 @@ This repository contains a notebook and python script.
 Options: 
 - --category_names - when this option is set, reads in a json file mapping labels to flower names.
 - --top_k - when this option is set, prints out the requested number of classes. Default is 5
-- Example usage: python predict.py ./test_images/wild_pansy.jpg my_model.h5 --category_names label_map.json --top_k 3
+Example usage:
+- python predict.py ./test_images/wild_pansy.jpg my_model.h5 --category_names label_map.json --top_k 3
